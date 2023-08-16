@@ -1,0 +1,116 @@
+.header{
+    width: auto;
+}
+.header nav{
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+.header nav h1{
+    font-size: 100px;
+    color: rgb(241, 241, 241);
+    padding: 0px;
+    margin: 0;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); 
+}
+.header div{
+    position: absolute;
+    float: left;
+    width: auto;
+    top: 0;
+    right: 0;
+    left: 280px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.header div h2{
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    margin: 0; 
+    font-size: 36px;
+    padding: 0px;
+}
+
+.habilidade {
+    position: absolute;
+    top: 200px;
+    left: 1px;
+    width: 280px;
+    height: auto;
+    background-color: rgb(203, 209, 218);
+    text-align: center;
+}
+
+.habilidade ul li{
+    text-align: left;
+    margin-top: 3px;
+}
+
+.habilidade h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+.habilidade h3{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.habilidade h4{
+    font-size: 20px;
+}
+
+.habilidade h5{
+    font-size: 18px;
+    margin: 0;
+}
+
+.habilidade h6{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.habilidade p{
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.habilidade div{
+    margin-bottom: 30px;
+}
+.sobre{
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    bottom: 0;
+    width: auto;
+    height: auto;   
+}
+
+.sobre h3{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.sobre h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sobre p{
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 18px;
+}
+
+#divcontato{
+    left: 380px;
+    text-align: start;
+}
+
