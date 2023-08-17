@@ -1,0 +1,137 @@
+:root {
+     --branco: #e6e6e6;
+     --laranja: #f7b600;
+     --cinza: #CCC;
+     --corh1: #4e4e4e;
+     --corh3: #565656;
+}
+
+body {
+    font-family: "Trebuche MS", sans-serif;
+    background: var(--cinza);
+}
+
+
+#area-logo, #area-menu {
+    text-align: center;
+    background-color: var(--laranja);
+    padding: 1%;
+}
+
+#area-logo h1{
+    padding: 1%;
+}
+
+#area-logo a{
+    padding: 1%;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#postagemGeral {
+    position: absolute;
+    width: 80%;
+}
+#postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: var(--branco);
+    width: 50%;
+    margin-left: 20%;
+    position:static;
+    margin-top: 1%;
+}
+
+#postagem h2{
+    font-size: 32px;
+}
+
+#postagem p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+#postagem a{
+    color: #f7b600;
+    padding: 0px;
+}
+
+#recentes{
+    position: relative;
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: var(--branco);
+    width: 15%;
+    margin-left: 60%;
+    margin-top: 0.8%;
+    margin-right: 20%;
+}
+
+#recentes a{
+    color: #f7b600;
+    padding: 0px;
+}
+
+
+#categorias{
+    position: relative;
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: var(--branco);
+    width: 15%;
+    margin-left: 60%;
+    margin-top: 1%;
+    margin-right: 20%;
+}
+
+#categorias a{
+    color: var(--laranja);
+    padding: 0px;
+}
+
+footer{
+    margin-top: 79.5%;
+    text-align: center;
+    background-color: #c7c4c4;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:visited{
+    color: var(--branco);
+}
+
+a:hover{
+    text-decoration: none;
+
+}
+
+h1{
+    color: var(--corh1);
+}
+
+h3{
+    color: var(--corh3);
+    background: var(--cinza);
+    padding: 5px;
+}
+
+h2 {
+    color: var(--laranja);
+}
+
+.branco{
+    color: var(--branco);
+}
