@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    
+    height: auto;
+}
+body{
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    height: auto;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid rgb(254, 254, 254);
+}
+
+header h1{
+    border-radius: 10px;
+    padding-bottom: 15px;
+    font-family: 'Pacifico', cursive;
+    padding-top: 5px;
+    color: white;
+    text-shadow: -5px 6px 9px rgba(0,0,0,1);
+    font-size: 37px;
+}
+
+header ul{
+    display: inline;
+}
+
+header ul li{
+    display: inline;
+}
+
+header ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 20px;
+    transition: .35s;
+    cursor: pointer;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    transition: all ease 0.8s;
+}
+
+header ul li a:hover{
+    color: yellow;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+.container-sobre{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 10% 13%;
+    height: 50vh;
+    align-items: center;
+    gap: 220px;
+}
+
+
+
+.container-sobre .imagem{
+    width: 250px;
+    height: 390px;
+    background-image: url(imagens/teste-removebg-preview.png);
+    background-position: center top;
+    background-size: 100%;
+    box-shadow: 20px 18px 13px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 20px 18px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 18px 13px 0px rgba(0,0,0,0.75);
+    
+}
+
+.container-sobre .item{
+    height: 390px;
+    color: white;
+}
+
+.container-sobre .texto{
+    width: 47.5%;
+}
+
+.container-sobre .texto h1{
+    color: #fdf4dc;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    padding: 15px;
+    width: auto;
+}
+
+.container-sobre .texto p{
+    color: #fdf4dc;
+    font-family: 'Handjet', cursive;
+    font-size: 28px;
+    padding: 10px;
+    
+    text-align: justify;
+}
+.containerHabilidade{
+    margin: 1% 8.5%;
+}
+
+.lista-habilidade{
+    margin-top: 45px;
+    height: auto;
+    flex-flow: row wrap;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    list-style: none;
+}
+
+.lista-habilidade .caixa-habilidade{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.57);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+}
+
+
+.lista-habilidade .caixa-habilidade .logo-autonomia{
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    background-image: url(imagens/trabalhador-autonomo.png);
+    background-size: 100%;
+}
+
+.lista-habilidade .caixa-habilidade .logo-flexibilidade{
+    width: 100px;
+    height: 100px;
+    margin: 17px auto;
+    background-image: url(imagens/agil.png);
+    background-size: 100%;
+}
+
+.lista-habilidade .caixa-habilidade .logo-remoto{
+    width: 100px;
+    height: 100px;
+    margin: -11px auto;
+    background-image: url(imagens/trabalho-a-partir-de-casa.png);
+    background-size: 100%;
+}
+
+.lista-habilidade .caixa-habilidade .logo-aprendizagem{
+    width: 100px;
+    height: 100px;
+    margin: 5px auto;
+    background-image: url(imagens/aprendizagem-online.png);
+    background-size: 100%;
+}
+
+.lista-habilidade .caixa-habilidade .logo-proativo{
+    width: 100px;
+    height: 100px;
+    margin: 14px auto;
+    background-image: url(imagens/proativo.png);
+    background-size: 100%;
+}
+
+.lista-habilidade .caixa-habilidade .logo-organizacao{
+    width: 100px;
+    height: 100px;
+    margin: 18px 115px;
+    background-image: url(imagens/caderno.png);
+    background-size: 100%;
+}
+
+
+.lista-habilidade .caixa-habilidade li{
+    padding: 14px;
+    color: white;
+    font-size: 26px;
+    font-family: 'Handjet', cursive;
+}
+
+
+
+.titulo{
+    width: 100%;
+}   
+
+.titulo h1, .lista-contato h1{
+    text-align: center;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 36px;
+}
+
+
+footer{
+    height: 70px;
+    border-top: 2px solid white;
+    color: white;
+    font-size: 19px;
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+}
+
+.container-projetos{
+    margin: 1% 8.5%;
+}
+
+.lista-projetos{
+    margin-top: 45px;
+    height: auto;
+    flex-flow: row wrap;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    list-style: none;
+}
+
+.lista-projetos .caixa-projeto{
+    width: 500px;
+    height: 520px;
+    margin: 15px;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(15, 16, 16, 0.57);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    
+}
+
+.lista-projetos .caixa-projeto .imagem-tecblog{
+    width: 88%;
+    height: 88%;
+    background-image: url(imagens/Aula04_Gabarito.png);
+    background-size: 100%;
+    margin: 10px auto;
+}
+
+.lista-projetos .caixa-projeto .texto-projeto{
+    padding:20px;
+    font-family:Arial;
+    text-align:center;
+    color:white;
+    opacity:0;
+    transition: ease-out .4s linear;
+    background-color:rgba(0,0,0,.7);
+  }
+  
+.lista-projetos .caixa-projeto .imagem-tecblog:hover .texto-projeto{
+    opacity:1;
+}
+
+.imagem-museunacional{
+    width: 88%;
+    height: 88%;
+    background-image: url(imagens/museuNacional.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+    margin: 80px auto;
+}
+
+.lista-projetos .caixa-projeto .imagem-museunacional:hover .texto-projeto{
+    opacity:1;
+}
+
+.lista-projetos .caixa-projeto h1{
+    font-size: 36px;
+    color: white;
+    font-family: 'Handjet', cursive;
+}
+
+.container-contato{
+    margin: 1% 8.5%;
+}
+
+.lista-contato{
+    margin-top: 15px;
+    height: auto;
+    flex-flow: row wrap;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    list-style: none;
+}
+.lista-contato .caixa-contato{
+    width: 99%;
+    height: 400px;
+    margin: 15px;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(15, 16, 16, 0.57);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    display: flex;
+}
+
+.lista-contato .caixa-contato .contato{
+    width: 33.33%;
+    
+}
+
+.lista-contato .caixa-contato .contato .imagem-gmail{
+    width: 240px;
+    height: 350px;
+    background-image: url(imagens/gmail\ \(1\).png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 20% auto;
+}
+
+.lista-contato .caixa-contato .contato .imagem-github{
+    width: 200px;
+    height: 200px;
+    background-image: url(imagens/placa-do-github.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 25% auto;
+}
+
+.lista-contato .caixa-contato .contato .imagem-instagram{
+    width: 200px;
+    height: 200px;
+    background-image: url(imagens/instagram.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 25% auto;
+}
+
+.lista-contato h1{
+    padding: 15px;
+}
+
